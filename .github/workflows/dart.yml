@@ -34,5 +34,3 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_DJANGO_FLUTTER_HOST }}'
           channelId: live
           projectId: django-flutter-host
-          publish_dir: ./build/web
-  

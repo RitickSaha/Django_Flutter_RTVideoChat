@@ -28,13 +28,13 @@ jobs:
         run: flutter config --enable-web
       - run: flutter build web
       - name: Deploy to Firebase Hosting
+  deploy_live_website:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_DJANGO_FLUTTER_HOST }}'
           channelId: live
           projectId: django-flutter-host
-      - uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.TOKEN }}
-          publish_dir: ./build/web

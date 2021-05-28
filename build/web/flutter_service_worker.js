@@ -4,8 +4,6 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   ".firebase/hosting.cHVibGlj.cache": "7eaa49dc35cfb73e726e591a59cc4987",
-".github/workflows/firebase-hosting-merge.yml": "7a8ae380360deeaad4db090605083d09",
-".github/workflows/firebase-hosting-pull-request.yml": "e29407781811d392812e5a84f96aa055",
 "404.html": "0a27a4163254fc8fce870c8cc3a3f94f",
 "assets/AssetManifest.json": "91e46c96aac8272acbf9375ba72e3426",
 "assets/assets/1.jpeg": "40851a219f75a38592a16763bb5dbbf4",
@@ -35,11 +33,10 @@ const RESOURCES = {
 "firebase.json": "ceb3227e948a2fffb08892a8749cf74e",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "7bec43f8b21b108c6a3b00680205fffc",
-"/": "7bec43f8b21b108c6a3b00680205fffc",
+"index.html": "03c1848ec864b86e678b0bcf2b0a27a4",
+"/": "03c1848ec864b86e678b0bcf2b0a27a4",
 "main.dart.js": "a3bb353260eb0237884e8458d818f757",
 "manifest.json": "6a9d104524557997b97ce0ef9ae99618",
-"public/index.html": "7bec43f8b21b108c6a3b00680205fffc",
 "version.json": "861fd1f35c5eb74c973b9b08f04a055c"
 };
 
